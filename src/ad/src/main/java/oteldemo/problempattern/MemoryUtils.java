@@ -63,3 +63,6 @@ public class MemoryUtils {
         return memoryBean.getObjectPendingFinalizationCount();
     }
 }
+
+
+
