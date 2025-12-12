@@ -28,7 +28,7 @@ spec:
         app.kubernetes.io/component: adservice
         app.kubernetes.io/name: opentelemetry-demo-adservice
     spec:
-      serviceAccountName: opentelemetry-demo
+      #serviceAccountName: opentelemetry-demo
       containers:
         - name: adservice
           image: aravindnimmala/opentelemetry:ad
